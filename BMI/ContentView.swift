@@ -58,7 +58,7 @@ struct ContentView: View {
             case "centimeter":
                 heightInMeter = heightValue / 100
         default:
-            return bmi = "0.0"
+            return bmi = "NaN"
         }
         
         let bmi = weightValue / (heightInMeter * heightInMeter)
